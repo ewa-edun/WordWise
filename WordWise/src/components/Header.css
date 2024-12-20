@@ -1,0 +1,44 @@
+.border{
+    border: 5px solid #FF00FF;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px #00FFFF;
+   }
+   
+.navbar ul{
+     list-style-type: none;
+     background-color: #302e2e;
+     padding: 10px;
+     margin: 0px;
+     overflow: hidden;
+   }
+   
+.navbar a:hover{
+     background-color: #FFD700;
+   }
+   
+.navbar li{
+     float:left;
+   }
+
+button{
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    color: #f2f5f8;
+    transition: border-color 0.25s;
+    align-items: center;
+}
+
+button:hover{
+    border-color: #892ddf;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

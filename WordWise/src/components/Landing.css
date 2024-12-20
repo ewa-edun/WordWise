@@ -1,0 +1,43 @@
+body{
+    background-image: url(../images/WordWise_home_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000000;
+    place-items: center;
+    font-size: large;
+}
+
+h1 {
+    font-size: 5em;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+p {
+    font-size: 1.5em;
+}
+
+.to_home{
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    color: #f2f5f8;
+    transition: border-color 0.25s;
+    align-items: center;
+}
+
+.to_home:hover{
+    border-color: #892ddf;
+}
+
+.to_home:focus,
+.to_home:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
