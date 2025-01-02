@@ -1,25 +1,34 @@
-import { useState } from 'react'
+import { Route, Routes, Navigate } from "react-router-dom";
 import './App.css'
+import Header from './components/Header'
+import Landing from './components/Landing'
+import Home from './components/Home'
+import Dashboard from './components/Dashboard'
+import Quiz from './components/Quiz'
+import About from './components/About'
+import Signup from './components/Signup'
+import Footer from './components/Footer'
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>WordWise</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/quiz" element={<Quiz />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+        <Footer />
       </div>
-      <p className="read-the-docs">
-        Study!!
-      </p>
     </>
   )
 }
 
 export default App
-
-// about.jsx, dashboard.jsx, footer.jsx, signup.jsx, header.jsx, home.jsx, landing.jsx, quiz.jsx and their respective css files//
