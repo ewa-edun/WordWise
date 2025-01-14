@@ -6,6 +6,7 @@ WordWise is a lightweight and innovative vocabulary-building app tailored for hi
 
 ### Features
 1. Landing Page
+    The first Page that calmly introduces people to wordwise and explains what wordwise is used for to the users.
 
 2. Word Bank
     A personalized space to add new words, their meanings, and types (noun, verb, etc.).
@@ -18,6 +19,9 @@ WordWise is a lightweight and innovative vocabulary-building app tailored for hi
 
 4. Random Quiz Generator: 
    Creates multiple-choice or fill-in-the-blank quizzes from the user’s word bank to reinforce retention.
+
+5. SignUp page:
+   Allows user to sign up to store user data and progress.
 
 ---
 ### **1. Landing Page**(First ever page)
