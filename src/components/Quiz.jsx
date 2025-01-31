@@ -59,7 +59,7 @@ const Quiz = () => {
         borderRadius: '8px',
         marginTop: '1rem'
       }}>
-        <h3>What is the meaning of "{questions[currentQuestion].word}"?</h3>
+        <h3>What is the meaning of `{questions[currentQuestion].word}`?</h3>
         <div style={{ 
           display: 'flex',
           flexDirection: 'column',

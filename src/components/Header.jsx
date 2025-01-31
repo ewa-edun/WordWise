@@ -19,10 +19,10 @@ const Header = () => {
           WordWise
         </Link>
         <div style={{ display: 'flex', gap: '1rem' }}>
-          <Link to="/home" style={{ textDecoration: 'none' }}>Home</Link>
+          <Link to="/words" style={{ textDecoration: 'none' }}>Words</Link>
           <Link to="/dashboard" style={{ textDecoration: 'none' }}>Dashboard</Link>
           <Link to="/quiz" style={{ textDecoration: 'none' }}>Quiz</Link>
-          <Link to="/about" style={{ textDecoration: 'none' }}>About</Link>
+          <Link to="/signup" style={{ textDecoration: 'none' }}>Sign Up</Link>
         </div>
       </nav>
     </header>
